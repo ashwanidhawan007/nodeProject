@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ashwanidhawan007/nodeProject/issues"
   },
-  "homepage": "https://github.com/ashwanidhawan007/nodeProject#readme"
+  "homepage": "https://github.com/ashwanidhawan007/nodeProject#readme",
+  "dependencies": {
+    "nodemon": "^2.0.13"
+  }
 }
