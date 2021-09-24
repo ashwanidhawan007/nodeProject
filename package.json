@@ -1,0 +1,19 @@
+{
+  "name": "nodeproject",
+  "version": "1.0.0",
+  "description": "this is test program ",
+  "main": "helloworld-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwanidhawan007/nodeProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashwanidhawan007/nodeProject/issues"
+  },
+  "homepage": "https://github.com/ashwanidhawan007/nodeProject#readme"
+}
