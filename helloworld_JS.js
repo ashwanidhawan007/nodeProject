@@ -9,4 +9,3 @@ const serverCB  =   (req,res) => {
 http.createServer(serverCB).listen(8080,'localhost');
 console.log("Server is listening at port: 8080");
 console.log(serverCB);
-
