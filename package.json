@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ashwanidhawan007/nodeProject#readme",
   "dependencies": {
+    "formidable": "^1.2.2",
     "mongodb": "^4.1.2",
     "nodemailer": "^6.6.5",
     "nodemon": "^2.0.13",
