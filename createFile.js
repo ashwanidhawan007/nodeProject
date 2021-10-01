@@ -1,8 +1,20 @@
 const fs = require("fs");
-fs.writeFile("./data.txt","This is from async prog", (err) => {
-    if (err){
-        console.log(err);
+const fileExists = fs.existsSync("./data.txt");
+
+if (fileExists) {
+    fs.readFile("./data.txt" , (err,data) => {
+    if (err) {
+        console.err(err) ;
     }
-        console.log("File Write completed now ")
-    } );
-console.log("File Write Processing");
+    else
+    {
+    console.log(data.toString());
+    }   
+    });
+} 
+else 
+{
+    console.log("File already Exist");
+}
+     //const data = fs.readFileSync ("./data.txt");
+ 
