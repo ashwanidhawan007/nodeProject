@@ -14,7 +14,7 @@ if (fileExists) {
 } 
 else 
 {
-    console.log("File already Exist");
+    console.log("File doesn't Exist");
 }
      //const data = fs.readFileSync ("./data.txt");
  
